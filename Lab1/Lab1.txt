@@ -1,0 +1,26 @@
+Metody uruchamiania skryptów bashowych
+
+source nazwa - korzysta z domyślnej powłoki
+chmod+x - trzeba ten nagłówek zrobić w pliku wykonywalnym
+bash nazwa - to nie wymaga robienia zagłówka #bin/bash (korzysta z basha)
+nazwa ścieżki
+
+
+chmod+x - nadaje uprawnienia wykonywania dla każdego
+Zawsze powinno dawać się minimalne uprawnienia tak, żeby się uruchomiło
+
+!<liczba> uruchomienia x polecenia z historii
+Slash neguje pierwotne znaczenie znaku funkcyjnego
+
+#wersja alternatywna
+$( ls -a ) // - bezpieczniej pisać ze spacjami, bo np w ifach bez spacji nie będzie działać
+
+kill - zabicie procesu
+
+kill -9 zabicie wymuszone
+
+ps - lista procesów
+bash - uruchomienie podpowłoki
+exit - wyjście z podpowłoki
+export <nazwa zmiennej> - ustawienie zmiennej jako globalnej - widocznej między powłokami
+export -n <nazwa zmiennej> - usuwamy atrybut zmiennej globalnej
