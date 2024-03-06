@@ -72,3 +72,20 @@ echo ${#tablica[0]} #ilosc znaków pierwszego elementu
 #dodawanie elementów do tablicy
 tablica[5]=6
 echo ${tablica[*]}
+
+#tworzenie tablicy jedynie poprzez dodawanie nowych elementów
+tab[0]="Tak"
+tab[1]="Nie"
+
+echo ${tab[@]}
+
+echo
+
+#usuwanie elementów tablicy
+unset tablica[3]
+
+echo ${tablica[@]}
+
+#usuwanie całej tablicy
+unset tablica[*]
+echo ${tablica[@]}

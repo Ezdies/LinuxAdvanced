@@ -1,0 +1,6 @@
+plik.txt
+plik1.txt
+plik12.txt
+plik2.txt
+script2.sh
+script3.sh
