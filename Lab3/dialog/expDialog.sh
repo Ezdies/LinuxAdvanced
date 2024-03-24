@@ -28,7 +28,7 @@
 
 #okno z listą pojedynczego wyboru
 
-#dialog --backtitle "Wybor notebooka" \
+# dialog --backtitle "Wybor notebooka" \
 #   --radiolist "Wybierz producenta:" 10 40 4 \
 #      1 "Asus" off \
 #      2 "Acer" off \
